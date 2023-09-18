@@ -1,0 +1,216 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+    color: #3eb1c8;
+}
+
+p, li {
+    color: #444444;
+    font-size: 16px;
+}
+
+header .navbar {
+    background-color: #3eb1c8;
+    padding: 0;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 190px;
+}
+
+.navbar-brand {
+    padding: 0 0 0 40px;
+    margin-right: 0;
+    color: #ffffff;
+    /*position: absolute;*/
+    /*top:0;*/
+}
+
+.navbar-brand:hover {
+    color: #3eb1c8;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem 1.5rem;
+    color: #ffffff;
+    /*font-weight: lighter;*/
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #9fd8e4;
+}
+
+.login{
+    padding: 1rem 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#pesquisar-login {
+    margin: 0 5rem;
+}
+
+.pesquisar{
+    width: 20rem;
+    margin-left:5rem;
+}
+
+.form-pesquisar {
+    border-color: #ffffff;
+    height:3rem;
+}
+
+.input-pesquisar {
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner .carousel-item {
+    height: 70vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+    text-shadow: 0 0 1em black;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+
+#sobre-petlove{
+    text-align: center;
+}
+
+#sobre-petlove h3{
+    margin: 0 0 65px 0;
+    color: #3eb1c8;
+}
+
+#produtos-servicos {
+    text-align: center;
+    background-color: rgba(62,177,200,0.1);
+}
+
+#produtos-servicos h4{
+    color: #3eb1c8;
+    margin: 0 0 25px 0;
+}
+
+#conteudo-rodape {
+    text-align: center;
+    background-color: #3eb1c8;
+}
+
+#conteudo-rodape .container{
+    border-bottom: 1px solid #ffffff;
+}
+
+#conteudo-rodape p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.contato-box {
+    text-align: center;
+}
+
+.contato-box i {
+    display: block;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 28px;
+    margin: auto;
+}
+
+#copy-rodape .container{
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-rodape .container p {
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+#copy-rodape .container a {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#logo-rodape {
+    width: 250px;
+}
+
+#produtos h2{
+    margin: 0 0 65px 0;
+}
+
+#produtos h5{
+    color: #252525;
+    margin: 0 0 20px 0;
+}
+
+#produtos .container .produto{
+    margin-bottom: 25px;
+}
+
+#produtos .container .card{
+    border-color:  rgba(62,177,200,0.1);
+    border-radius: 1px;
+    text-align: center;
+}
+
+#cadastro h2{
+    margin: 0 0 65px 0;
+}
+
+#produtos .container .card .btn{
+    border: none;
+    width: 100%;
+    background-color: #3eb1c8;
+}
+
+#btn-cadastrar{
+    border: none;
+    width: 100%;
+    background-color: #3eb1c8;
+}
+
+#servico h2{
+    margin: 0 0 65px 0;
+}
+

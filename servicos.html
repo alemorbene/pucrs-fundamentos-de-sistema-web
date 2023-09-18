@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Links para fontes e ícones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Links para arquivos de estilo -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>LovePet</title>
+</head>
+<body>
+<header>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" id="nav-container">
+            <!-- Logotipo -->
+            <a href="index.html" class="navbar-brand">
+                <img class="img-fluid " id="logo" src="imagens/logo-2.png" alt="LovePet">
+            </a>
+            <!-- Botão para menu responsivo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links do menu -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastrar Pet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Agendar Serviços</a>
+                    </li>
+                </ul>
+                <!-- Formulário de pesquisa -->
+                <form class="d-flex input-group pesquisar" role="search">
+                    <input type="text" class="form-control form-pesquisar" placeholder="O que você está procurando?" aria-label="O que você está procurando?" aria-describedby="O que você está procurando?">
+                    <span class="input-group-text input-pesquisar">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+                          </svg>
+                        </span>
+                </form>
+                <!-- Botão de login -->
+                <div id="pesquisar-login">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" viewBox="0 0 24 24" width="24" height="24">
+                        <path d="M12 2.5a5.25 5.25 0 0 0-2.519 9.857 9.005 9.005 0 0 0-6.477 8.37.75.75 0 0 0 .727.773H20.27a.75.75 0 0 0 .727-.772 9.005 9.005 0 0 0-6.477-8.37A5.25 5.25 0 0 0 12 2.5Z"></path>
+                    </svg>
+                    <a class="login" href="#">Login</a>
+                </div>
+
+            </div>
+
+        </div>
+    </nav>
+</header>
+<main>
+    <!-- Seção Agendar Serviço -->
+    <section id="servico" class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <h2>Agendar Serviço</h2>
+                </div>
+                <div class="col-md-8">
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <select class="form-select" aria-label="Porte">
+                                <option selected>Selecione o Serviço</option>
+                                <option value="1">Banho</option>
+                                <option value="2">Tosa</option>
+                                <option value="3">Banho e Tosa</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="date" class="form-control" id="data" placeholder="Data de Nascimento*">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label>Se seu pet não aparece na seleção, faço o cadastro na seção "Cadastrar Pet" antes de continuar...</label>
+                            <select class="form-select" aria-label="Sexo">
+                                <option selected>Selecione seu Pet</option>
+                                <option value="nome-do-pet">Nome do Pet</option>
+                            </select>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="button" class="btn btn-primary" id="btn-cadastrar" value="Agendar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer>
+    <!-- Rodapé -->
+    <div id="conteudo-rodape">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-md-4 contato-box">
+                    <!-- Ícone de telefone e informações de contato -->
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>
+                        <span class="contato-title">Contato: </span> (51)99999-9999 <br>
+                        <span class="contato-title">Horário de Atendimento: </span> 8:00 - 19:00
+                    </p>
+                </div>
+                <div class="col-md-4 contato-box">
+                    <!-- Ícone de mapa e endereço -->
+                    <i class="bi bi-map-fill"></i>
+                    <p><span class="contato-title">Endereço: </span> Av. Ipiranga, 6681 - Partenon, Porto Alegre - RS, 90619-900</p>
+                </div>
+                <div class="col-md-4 contato-box">
+                    <!-- Logotipo no rodapé -->
+                    <a href="index.html" class="navbar-brand">
+                        <img class="img-fluid " id="logo-rodape" src="imagens/logo-1.jpg" alt="LovePet">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="copy-rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Créditos do desenvolvedor e ano de direitos autorais -->
+                        <p>Desenvolvido por <a href="#">Alessandra Soares</a> &copy; 2023 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
